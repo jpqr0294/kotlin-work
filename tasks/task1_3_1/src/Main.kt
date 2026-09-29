@@ -8,7 +8,7 @@ import com.github.ajalt.mordant.terminal.Terminal
 fun main() {
     val term = Terminal(AnsiLevel.TRUECOLOR)
 
-    val helloStyle = italic + underline + yellow
+    val helloStyle = italic + underline + red
     term.println(helloStyle("HELLO WORLD!"))
 
     val date = today()
