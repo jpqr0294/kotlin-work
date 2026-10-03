@@ -9,5 +9,9 @@ fun main(args: Array<String>) {
     }
 
     val number = args[0].toInt()
-    println(number * number)
+
+    print("Enter second number: ")
+    val number2 = readln().toInt()
+    
+    println(number * number2)
 }
