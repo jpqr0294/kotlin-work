@@ -1,0 +1,13 @@
+// Task 5.1.2: main program
+import kotlin.system.exitProcess
+
+fun main(args: Array<String>) {
+    if(args.size == 1) {
+        var numSides = args[0].toInt()
+        rollDie(numSides)
+    }
+    else {
+        rollDie()
+    }
+
+}

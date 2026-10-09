@@ -6,8 +6,8 @@ fun main() {
     val word3 = "12345123451234512345"
     val word4 = "123451234512345123456"
 
-    println(word1.isTooLong())
-    println(word2.isTooLong())
-    println(word3.isTooLong())
-    println(word4.isTooLong())
+    println(word1.isTooLong)
+    println(word2.isTooLong)
+    println(word3.isTooLong)
+    println(word4.isTooLong)
 }
