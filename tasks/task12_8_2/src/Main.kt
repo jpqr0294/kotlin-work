@@ -1,4 +1,6 @@
 // Task 12.8.2: program to manipulate playing cards
+import Card.Suit
+import Card.Rank
 
 fun main() {
     val deck = mutableListOf<Card>()
@@ -11,6 +13,6 @@ fun main() {
     
     deck.shuffle()
     for (i in deck) {
-        println()
+        println(i.fullName)
     }
 }
